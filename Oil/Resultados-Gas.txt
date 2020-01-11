@@ -1,0 +1,112 @@
+GAS - GAS
+
+LAG 1 - center,scale
+
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+       knn svmLinear2       rf xgbLinear      mlp
+1 78.44089   22.32053 40.31927  28.06268 78.20767
+
+> pred_MAPE
+        knn svmLinear2         rf  xgbLinear       mlp
+1 0.1201166 0.02531057 0.05397247 0.03582563 0.1193823
+
+> pred_Rsquared
+        knn svmLinear2        rf xgbLinear mlp
+1 0.1624065  0.3001717 0.2227459 0.1936326  NA
+
+--------------------------------
+LAG 5 - center,scale
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+       knn svmLinear2       rf xgbLinear     mlp
+1 67.52136   27.34836 32.25191  21.83076 203.928
+
+> pred_MAPE
+         knn svmLinear2         rf  xgbLinear     mlp
+1 0.09984418 0.03063684 0.04125511 0.02626018 0.40749
+
+> pred_Rsquared
+         knn svmLinear2        rf xgbLinear mlp
+1 0.07224351  0.2454786 0.2571718 0.2882204  NA
+
+
+--------------------------------
+LAG 5 - pca,center,scale
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+       knn svmLinear2       rf xgbLinear      mlp
+1 70.85282   28.37098 83.90248  70.71252 94.10604
+
+> pred_MAPE
+        knn svmLinear2        rf xgbLinear       mlp
+1 0.1060645 0.03320282 0.1254468 0.1005636 0.1496033
+
+> pred_Rsquared
+        knn svmLinear2         rf  xgbLinear mlp
+1 0.1389566  0.1632429 0.02026219 0.01195749  NA
+
+--------------------------------
+LAG 5 - Features x1 - center,scale
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+       knn svmLinear2      rf xgbLinear      mlp
+1 68.76979   32.32185 34.7837   23.0616 97.29827
+> pred_MAPE
+        knn svmLinear2        rf  xgbLinear       mlp
+1 0.1009678 0.03582285 0.0452397 0.02809793 0.1559388
+> pred_Rsquared
+          knn svmLinear2        rf xgbLinear        mlp
+1 0.002497275  0.2539313 0.2555531 0.2715728 0.06982916
+
+--------------------------------
+LAG 5 - Features x1 - pca,center,scale
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+       knn svmLinear2       rf xgbLinear      mlp
+1 68.52287   29.92587 38.40336  24.95628 57.22639
+
+> pred_MAPE
+        knn svmLinear2         rf  xgbLinear        mlp
+1 0.1005236 0.03433551 0.05134085 0.03028913 0.08156139
+
+> pred_Rsquared
+          knn svmLinear2          rf  xgbLinear mlp
+1 0.001969149  0.2413671 0.003264567 0.01332641  NA
+
+--------------------------------
+LAG 5 - Features x1 - pca,boxcox
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+       knn svmLinear2       rf xgbLinear      mlp
+1 75.88309   35.17733 39.31932   27.3954 211.1779
+
+> pred_MAPE
+        knn svmLinear2         rf xgbLinear       mlp
+1 0.1138607 0.04611692 0.05281835 0.0340769 0.4287544
+
+> pred_Rsquared
+        knn svmLinear2           rf  xgbLinear        mlp
+1 0.0161381  0.2765734 0.0003894766 0.02051221 0.03249046
+
+--------------------------------
+LAG 5 - pca,boxcox
+knn,svmLinear2,rf,xgbLinear,mlp
+
+> pred_RMSE
+      knn svmLinear2       rf xgbLinear      mlp
+1 70.6438   37.90862 87.19119  71.80129 186.7563
+
+> pred_MAPE
+        knn svmLinear2        rf xgbLinear       mlp
+1 0.1056413 0.04968563 0.1331901 0.1025418 0.3601429
+
+> pred_Rsquared
+        knn svmLinear2          rf   xgbLinear mlp
+1 0.1177497  0.1310925 0.006500363 0.005216813  NA

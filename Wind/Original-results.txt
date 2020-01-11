@@ -1,0 +1,45 @@
+ELM
+
+RMSE
+> Metricas[which.min(Metricas[,2]),]
+[1] 832.00000000 180.44717597   0.09314596   0.68396050
+> grid[832,]
+              Var1               Var2               Var3 
+             "sig" "uniform_negative"              " 37"
+
+MAPE
+> Metricas[which.min(Metricas[,3]),]
+[1] 442.00000000 181.34048168   0.09263942   0.68281715
+> grid[442,]
+              Var1               Var2               Var3 
+             "sig" "uniform_negative"              " 24" 
+
+R2
+> Metricas[which.max(Metricas[,4]),]
+[1] 592.00000000 182.26874515   0.09363235   0.68657359
+> grid[592,]
+              Var1               Var2               Var3 
+             "sig" "uniform_negative"              " 29" 
+
+---
+
+STACK
+'rf', 'gbm', 'knn', 'svmLinear2', 'brnn', 'bridge' - base learners heterogenea
+stack - brnn - meta learner
+
+> pred_RMSE
+     stack       rf      gbm      knn svmLinear2     brnn   bridge
+1 187.3303 193.1633 188.9782 196.4391   190.2378 187.1483 195.5096
+
+> pred_MAPE
+       stack         rf        gbm        knn svmLinear2       brnn    bridge
+1 0.09700869 0.09991876 0.09892846 0.09971141 0.09411141 0.09763744 0.1011733
+
+> pred_Rsquared
+      stack        rf      gbm       knn svmLinear2      brnn    bridge
+1 0.6727052 0.6524124 0.671106 0.6206908  0.6382699 0.6764517 0.6388566
+
+---
+
+
+

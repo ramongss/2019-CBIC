@@ -1,0 +1,24 @@
+ELM
+
+> grid[638,]
+             Var1              Var2              Var3 
+         "tansig" "normal_gaussian"             " 31"
+
+> grid[907,]
+             Var1              Var2              Var3 
+        "satlins" "normal_gaussian"             " 40" 
+
+RMSE
+> Metricas[which.min(Metricas[,2]),]
+[1] 638.00000000 189.53730710   0.09771354   0.56785117
+
+MAPE
+> Metricas[which.min(Metricas[,3]),]
+[1] 638.00000000 189.53730710   0.09771354   0.56785117
+
+Rsquared
+> Metricas[which.max(Metricas[,4]),]
+[1] 907.0000000 194.1985436   0.1035195   0.583560
+
+
+STACK
