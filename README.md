@@ -2,7 +2,6 @@
 ## :zap: Very short-term wind energy forecasting based on stacking ensemble
 [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Sinvaldo Rodrigues Moreno](https://orcid.org/0000-0001-6565-9605), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Ramon Gomes da Silva](https://orcid.org/0000-0001-8580-7695), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Matheus H. D. M. Ribeiro](https://orcid.org/0000-0001-7387-9077), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Naylene Fraccanabbia](https://orcid.org/0000-0002-5812-9128), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Viviana Cocco Mariani](https://orcid.org/000-0003-2490-4568), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Leandro dos Santos Coelho](https://orcid.org/0000-0001-5728-943X)
 
-
 ![Prediction](Wind/plot/sample.png)
 
 ### Code
@@ -29,6 +28,7 @@
 ----
 
 ## (Rejected) :oil_drum: Previsão da produção brasileira de petróleo com base em uma abordagem híbrida
+[<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Naylene Fraccanabbia](https://orcid.org/0000-0002-5812-9128), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Ramon Gomes da Silva](https://orcid.org/0000-0001-8580-7695), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Matheus H. D. M. Ribeiro](https://orcid.org/0000-0001-7387-9077), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Leandro dos Santos Coelho](https://orcid.org/0000-0001-5728-943X), [<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></img> Viviana Cocco Mariani](https://orcid.org/000-0003-2490-4568)
 
 ![Prediction](Oil/Plot/bolinhas.png)
 
