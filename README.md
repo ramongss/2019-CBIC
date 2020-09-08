@@ -9,7 +9,7 @@
 
 ### Publication
 - [Preprint (ResearchGate)](https://www.researchgate.net/publication/336991055_Very_short-term_wind_energy_forecasting_based_on_stacking_ensemble)
-- [Conference paper (2019 CBIC proceedings)](http://abricom.org.br/eventos/cbic2019/cbic-paper-22/)
+- [Conference paper (2019 CBIC proceedings)](http://abricom.org.br/eventos/cbic2019/cbic2019-22/)
 
 ### How to cite this paper
 ````bibtex
